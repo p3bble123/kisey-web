@@ -1,0 +1,169 @@
+<style>
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  span,
+  div {
+    font-family: "Jost" !important;
+  }
+
+  @media screen and (max-width: 991px) {
+    .text-table.holder {
+      display: none;
+    }
+
+    /* header 색상 제거 및 헤더영역까지 상품 이미지 끌어올리기*/
+    .section_bg_color._section_bg_color.fixed_transform {
+      background-color: transparent !important;
+    }
+
+    .header_non-white-version {
+      background-color: white !important;
+    }
+
+    #prod_detail {
+      position: relative;
+      top: -84px;
+    }
+
+    .goods_wrapper {
+      width: 100vw;
+      position: relative;
+      top: -10px;
+    }
+
+    /* dot & 화살표 컨테이너 */
+    .goods_thumbs .owl-controls {
+      position: relative;
+      padding-bottom: 13px;
+    }
+
+    /* 상세정보 중앙 정렬 */
+    div#prod_goods_form {
+      display: flex;
+      flex-direction: column;
+      /* align-items: center; */
+    }
+
+    span.text-brand.pay_number {
+      /* text-align: center; */
+    }
+
+    .fr-view {
+      display: flex;
+      flex-direction: column;
+      /* align-items: center; */
+    }
+
+    .fr-view p {
+      /* text-align: center; */
+    }
+
+    #prod_image_list {
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* 썸네일 선택 이미지 */
+    .shop_goods_img .clearfix {
+      margin-top: 14px;
+      display: block;
+    }
+
+    .goods_form_wrap .goods_form {
+      padding: 10px 15px 0px;
+    }
+
+    /* 혜택 및 배송 */
+    .item_detail,
+    ._today_arrival_wrap {
+      align-self: stretch;
+      /* padding: 0 10px !important; */
+    }
+
+    /* 버튼 사이즈 */
+    a.btn.defualt-cart,
+    a.btn.defualt.buy.bg-brand,
+    a.btn.cart.opt._btn_cart,
+    a.btn.opt.buy.bg-brand._btn_buy {
+      font-size: 13px !important;
+    }
+
+    /* 찜 & 장바구니 */
+    .goods_form .m-btn-group.buy_btns {
+      position: absolute;
+      top: -10px;
+      right: 10px;
+      text-align: end;
+    }
+
+    /* 장바구니 옵션 텍스트 사이즈 */
+    .form-select-wrap .dropdown-toggle,
+    .form-select-wrap .dropdown-menu .dropdown-item > a > span {
+      font-size: 13px !important;
+    }
+
+    .shop-content.open .opt-group .option_title {
+      font-size: 13px !important;
+      font-weight: 600;
+    }
+  }
+
+  @media screen and (min-width: 992px) {
+    /* 이미지 & 정보 정렬 */
+    .goods_thumbs_wrap {
+      width: 50%;
+      right: -70px;
+    }
+
+    /* 썸네일 이미지 배치 좌상단 세로방향 */
+    .goods_thumbs {
+      position: relative;
+    }
+
+    .shop_goods_img {
+      position: absolute;
+      top: -10px;
+      left: -80px;
+    }
+
+    .shop_goods_img .clearfix {
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* 썸네일 이미지 사이즈 및 마진 */
+    .shop_goods_img ul li a {
+      width: 65px;
+      height: 100px;
+      margin-bottom: 10px;
+    }
+
+    .goods_form_wrap {
+      height: 100%;
+      position: sticky;
+      position: -webkit-sticky;
+      top: 10px;
+    }
+
+    .goods_form_wrap {
+      top: 0;
+      bottom: 0;
+      position: fixed;
+      overflow-y: scroll;
+      overflow-x: hidden;
+    }
+
+    /* 상세정보 반품/교환 박스 정렬*/
+    .categorize .review-box {
+      width: 50%;
+      margin: 0;
+      padding-left: 15%;
+    }
+  }
+</style>
